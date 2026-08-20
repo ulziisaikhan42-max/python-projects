@@ -1,0 +1,11 @@
+print("=== Text Counter ===")
+
+text = input("Текстээ оруул: ")
+
+words = text.split()
+letters = len(text.replace(" ", ""))
+
+print("\nҮр дүн:")
+print("Үг:", len(words))
+print("Тэмдэгт:", len(text))
+print("Үсэг:", letters)
